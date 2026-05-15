@@ -2,6 +2,14 @@
 
 这是一个用来整理和沉淀快捷常用功能实现的脚本仓库。仓库的根目录下存放了一系列特定的 Shell（主要为 zsh 或 bash）脚本，每一个脚本对应解决一个特定的痛点或功能需求。
 
+## 前置准备
+
+为了方便通过终端直连下载特定的脚本文件，推荐使用 `ghcd`。如果你还没有安装该工具，可以通过以下命令在Python环境中快速安装：
+
+```bash
+pip install github-content-downloader
+```
+
 ## 使用方法
 
 本仓库的脚本主要设计为即下即用。你可以使用 `ghcd` 等工具直接下载对应的脚本文件并执行。
@@ -10,7 +18,7 @@
 
 ```bash
 # 下载对应的脚本文件
-ghcd <repository_url>/<script_name>.sh
+ghcd https://github.com/Xiqichaoming/my-commands/blob/main/<script_name>.sh
 
 # 赋予可执行权限并运行
 chmod +x <script_name>.sh
