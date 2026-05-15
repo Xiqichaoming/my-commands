@@ -18,7 +18,7 @@ pip install github-content-downloader
 
 ```bash
 # 下载对应的脚本文件
-ghcd https://github.com/Xiqichaoming/my-commands/blob/main/<script_name>.sh
+ghcd https://github.com/Xiqichaoming/my-commands/blob/master/<script_name>.sh
 
 # 赋予可执行权限并运行
 chmod +x <script_name>.sh
